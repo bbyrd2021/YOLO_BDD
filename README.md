@@ -30,8 +30,16 @@ The model detects 10 object classes:
 
 ## Requirements
 
+Install dependencies using:
+
 ```bash
-pip install ultralytics pillow pandas numpy pyyaml
+pip install -r requirements.txt
+```
+
+Or install manually:
+
+```bash
+pip install ultralytics pillow pandas numpy pyyaml torch torchvision matplotlib seaborn
 ```
 
 ## Dataset Setup
